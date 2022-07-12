@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestApiRequest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-11T19:47:11" hostname="DESKTOP-349FU0T" time="4.017">
+  <properties/>
+  <testcase name="AddAPet()" classname="TestApiRequest" time="2.64"/>
+  <testcase name="GetAPet()" classname="TestApiRequest" time="0.712"/>
+  <testcase name="UpdateAPet()" classname="TestApiRequest" time="0.664"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 11 Jul 2022 19:47:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1,
+    "category": {
+        "id": 1,
+        "name": "cat"
+    },
+    "name": "peluchin",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "peluchin"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Mon, 11 Jul 2022 19:47:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1,
+    "category": {
+        "id": 1,
+        "name": "cat"
+    },
+    "name": "peluchin",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "peluchin"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Mon, 11 Jul 2022 19:47:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1,
+    "category": {
+        "id": 0,
+        "name": "CATEGORIA"
+    },
+    "name": "OREJONA",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "unavailable"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
